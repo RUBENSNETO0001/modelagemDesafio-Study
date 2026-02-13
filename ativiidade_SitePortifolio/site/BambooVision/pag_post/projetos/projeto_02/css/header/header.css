@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 1px 0px 0px black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#imgLogo{
+    width: 50px;
+}
+/* btn */
+#voltaPerfil{
+    padding: 10px 15px;
+    border-radius: 100%;
+    border: none;
+    transition: 1s;
+    border: 1px solid blue;
+}
+#voltaPerfil:hover{
+    background-color: #c7c7c7;
+    color: rgb(255, 0, 0);
+    box-shadow: -1px -2px 0px 0px red;
+}

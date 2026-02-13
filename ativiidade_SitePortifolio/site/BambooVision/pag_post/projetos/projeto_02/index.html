@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/configgeral.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/main/main_listaCompleta.css">
+    <link rel="stylesheet" href="css/main/main_listaFuncao.css">
+    <link rel="stylesheet" href="css/main/main_escolha.css">
+    <link rel="stylesheet" href="css/main/main_hr.css">
+    <!-- js -->
+    <script src="js/funçãodoSite.js" defer></script>
+    <script src="js/btn.js" defer></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assents/svg/panda.svg" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assents/header/lista.png" alt="logo de lista" id="imgLogo">
+            <h1>TudoNaLista</h1>
+        </div>
+        <button id="voltaPerfil">&crarr;</button>
+    </header>
+    <main>
+        <!-- não posso esquecer de deixa o espaçamento -->
+        <div class="listadeFuncoes">
+            <h3>Lista de comando</h3>
+            <ol>
+                <li class="textLista">Criar na lista;</li>
+                <li class="textLista">Vê lista.</li>
+            </ol>
+        </div>
+        <!-- Aqui vai esta as escolha, escolhas essas que eu queria ter -->
+        <div class="escolha">
+            <form action="Escolha.php" id="form_comando">
+                <h3 id="textEscolha">Coloque o numero da sua escolha</h3>
+                <input type="number" id="number" placeholder="numero:">
+                <input type="button" value="enviar" onclick="escolher()" id="btn">
+            </form>
+        </div>
+        <hr class="hr_01">
+        <!-- aqui e a lista -->
+        <div id="lista">
+            <h3 id="textLista">Lista</h3>
+            <div id="listaTotal"></div>
+        </div>
+    </main>
+</body>
+</html>

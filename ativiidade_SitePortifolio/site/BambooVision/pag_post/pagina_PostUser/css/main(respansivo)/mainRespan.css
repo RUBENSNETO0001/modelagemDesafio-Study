@@ -1,0 +1,24 @@
+@media (max-width: 500px) {
+    .main_HeaderApresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .apresentacaoTexto_01 {
+        padding: 8px;
+    }
+
+    table,
+    th,
+    td {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projetos_links {
+        flex-direction: column;
+        align-items: center;
+    }
+    #caixa02{
+        margin: 5px 0px 34px;
+    }
+}

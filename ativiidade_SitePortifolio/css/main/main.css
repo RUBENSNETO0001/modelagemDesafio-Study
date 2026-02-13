@@ -1,0 +1,21 @@
+.geralMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+/* logo */
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* inputs */
+.inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
